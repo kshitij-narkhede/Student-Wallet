@@ -1,0 +1,23 @@
+.carousel-inner{
+    Height:300px;
+    width:1550px;
+}
+.container{
+    margin: 4vh auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+.container1{
+    min-height: 73vh;
+}
+.hov :hover{
+    background-color: peachpuff;
+}
+
+

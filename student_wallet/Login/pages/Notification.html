@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/notification_style.css">
+  <script src="javascript/email.js"></script>
+</head>
+<body>
+    <div class="container-xl px-4 mt-4">
+        <!-- Account page navigation-->
+        <nav class="nav nav-borders">
+            <a class="nav-link  ms-0" href="profile.html" >Profile</a>
+            <a class="nav-link" href="Billing.html" >Billing</a>
+            <a class="nav-link" href="Security.html" >Security</a>
+            <a class="nav-link active" href="Notification.html"  >Notifications</a>
+        </nav>
+        <hr class="mt-0 mb-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Email notifications preferences card-->
+                <div class="card card-header-actions mb-4">
+                    <div class="card-header">
+                       Emergency Situation Notifications
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <!-- Form Group (default email)-->
+                            <div class="mb-3">
+                                <label class="small mb-1" for="inputNotificationEmail">Relatives Emails</label>
+                                <input class="form-control" id="email11" type="email" placeholder="Enter email of Relative-1" >
+                                <input class="form-control" id="email12" type="email" placeholder="Enter email of Relative-2" >
+                                <input class="form-control" id="email13" type="email" placeholder="Enter email of Relative-3" >
+                                <input class="form-control" id="email14" type="email" placeholder="Enter email of Relative-4" >
+                                <input class="form-control" id="email15" type="email" placeholder="Enter email of Relative-5" >
+                            </div>
+                            <!-- Form Group (email updates checkboxes)-->
+                            <div class="mb-0">
+
+                                <button class="btn btn-danger-soft" onclick="mailids()">Save Changes</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- SMS push notifications card-->
+                <div class="card card-header-actions mb-4">
+                    <div class="card-header">
+                        Whatsapp Notifications
+                        
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <!-- Form Group (default SMS number)-->
+                            <div class="mb-3">
+                                <label class="small mb-1" for="phnos">Default SMS number</label>
+                                <input class="form-control" id="phno11" type="tel"  placeholder="Whatsapp number of Relative-1">
+                                <input class="form-control" id="phno12" type="tel"  placeholder="Whatsapp number of Relative-2">
+                                <input class="form-control" id="phno13" type="tel"  placeholder="Whatsapp number of Relative-3">
+                                <input class="form-control" id="phno14" type="tel"  placeholder="Whatsapp number of Relative-4">
+                                <input class="form-control" id="phno15" type="tel"  placeholder="Whatsapp number of Relative-5">
+                            </div>
+                            <!-- Form Group (SMS updates checkboxes)-->
+                            <button class="btn btn-danger-soft" onclick="mobilenos()">Save Changes</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
+</body>
+</html>
