@@ -1,0 +1,8 @@
+					Vishwakarma Institute Of Information technology
+
+
+							Student Wallet EpassBook
+
+transaction_date 	 transaction_type 	to	  	 Credit_amount 	 Debit_amount
+2023-05-27 13:49:19 	  transfer 		22110941		  		 100
+2023-05-27 13:47:43 	  deposit 		9673338779		 50000 		 

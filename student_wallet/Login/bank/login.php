@@ -30,27 +30,27 @@
 
 	 ?>
 </head>
-<body style="background: url(images/bg-login2.jpg);background-size: 100%">
+<body style="background: url(images/123.jpg);background-size: 100%">
 <h1 class="alert alert-success rounded-0"><?php echo 'VIIT Student Bank'; ?><small class="float-right text-muted" style="font-size: 12pt;"><kbd></kbd></small></h1>
 <br>
 <?php echo $error ?>
 <br>
-<div id="accordion" role="tablist" class="w-25 float-right shadowBlack" style="margin-right: 222px">
+<div id="accordion" role="tablist" class="w-25 shadowBlack float-right text-muted" style="margin-right: 222px">
 	<br><h4 class="text-center text-white">Select Your Session</h4>
-  
+   
   <div class="card rounded-0">
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
         <a class="collapsed btn btn-outline-success btn-block" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Manager Login
+          Admin Login
         </a>
       </h5>
     </div>
-    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div id="collapseTwo" class="collapse float-right" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
          <form method="POST">
-       	<input type="email" value="manager@manager.com" name="email" class="form-control" required placeholder="Enter Email">
-       	<input type="password" name="password" value="manager" class="form-control" required placeholder="Enter Password">
+       	<input type="email" value="admin@viit.ac.in" name="email" class="form-control" required placeholder="Enter Email">
+       	<input type="password" name="password" value="admin" class="form-control" required placeholder="Enter Password">
        	<button type="submit" class="btn btn-primary btn-block btn-sm my-1" name="managerLogin">Enter </button>
        </form>
       </div>

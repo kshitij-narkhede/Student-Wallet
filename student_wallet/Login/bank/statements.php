@@ -75,7 +75,7 @@ if(!isset($_SESSION['userId'])){ header('location:login.php');}
 
    ?>
 </head>
-<body style="background:#F7E1AE;background-size: 100%">
+<body style="background:#96D678;background-size: 100%">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
  <a class="navbar-brand" href="#">
     <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
